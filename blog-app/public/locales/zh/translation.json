@@ -1,0 +1,48 @@
+{
+    "postList": {
+        "header": "JSON 占位符帖子列表",
+        "filteredHeader": "JSON 占位符帖子按 UserId: {{userId}}",
+        "filterForm":{
+            "formRecordLabel": "用户ID过滤",
+            "label": "按用户 ID 搜索：", 
+            "placeholder": "输入用户ID",
+            "recordLabel": "通过用户 ID 过滤帖子"
+        }},
+    "commentForm":{
+        "formRecordLabel":"评论表",
+        "commenterName":{
+            "label":"评论者姓名:",
+            "placeholder":"输入您的名字",
+            "recordLabel":"输入评论者姓名"
+        },
+        "commentBody":{
+            "label":"评论正文:",
+            "placeholder":"在此输入评论",
+            "recordLabel":"输入评论正文"
+        },
+        "postId":{
+            "label": "对应帖子ID:",
+            "placeholder": "输入对应的帖子ID",
+            "recordLabel": "输入对应的帖子ID"
+        },
+        "submitButton": "提交"
+    },
+    "commentList": {
+        "commenterName": "评论者姓名:",
+        "postId": "对帖子 ID 发表评论:",
+        "commentBody": "评论正文:"
+    },
+    "loading": "加载中...",
+    "error":{
+        "heading":"错误",
+        "noPost": "错误 找不到该用户 ID 的帖子"
+    },
+    "postItem":{
+        "recordLabel": "帖子编号：{{post.id}}",
+        "postId": "帖子编号：",
+        "userId": "用户身份：",
+        "title": "标题：",
+        "body": "身体："        
+    }
+    
+}

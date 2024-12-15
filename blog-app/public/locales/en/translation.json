@@ -1,0 +1,49 @@
+{
+    "postList": {
+        "header": "JSON Placeholder Post List",
+        "filteredHeader": "JSON Placeholder Posts by UserId: {{userId}}",
+        "filterForm":{
+            "formRecordLabel": "userIdFiltering",
+            "label": "Search By User ID:", 
+            "placeholder": "Enter UserId",
+            "recordLabel": "Filter posts via User ID"
+        }},
+    "commentForm":{
+        "formRecordLabel":"commentForm",
+        "commenterName":{
+            "label":"Commenter Name:",
+            "placeholder":"Enter Your Name",
+            "recordLabel":"Enter commenter name"
+        },
+        "commentBody":{
+            "label":"Comment Body:",
+            "placeholder":"Enter Comment Here",
+            "recordLabel":"Enter comment body"
+        },
+        "postId":{
+            "label": "Corresponding Post ID:",
+            "placeholder": "Enter Corresponding Post ID",
+            "recordLabel": "Enter Corresponding Post ID"
+        },
+        "submitButton": "Submit"
+    },
+    "commentList": {
+        "commenterName": "Commenter Name:",
+        "postId": "Comment on Post Id:",
+        "commentBody": "Comment Body:"
+    },
+    "loading": "Loading...",
+    "error":{
+        "heading":"Error",
+        "noPost": "Error No Posts found for this User ID"
+    },
+    "postItem":{
+        "recordLabel": "Post ID: {{post.id}}",
+        "postId": "Post ID:",
+        "userId": "User ID:",
+        "title": "Title:",
+        "body": "Body:"        
+    }
+
+    
+}
